@@ -120,6 +120,7 @@ class GamePlayActivity : AppCompatActivity() {
             }else{
                 activeUser = 2
             }
+
         }else{
             buttonSelected.text = "O"
             audio.start()
@@ -134,6 +135,7 @@ class GamePlayActivity : AppCompatActivity() {
                 Handler().postDelayed(Runnable {reset() },4000)
             }
         }
+
     }
 
     private fun robot() {
@@ -159,7 +161,7 @@ class GamePlayActivity : AppCompatActivity() {
             val audio = MediaPlayer.create(this,R.raw.app_src_main_res_raw_poutch)
             audio.start()
             Handler().postDelayed(Runnable { audio.release() },500)
-            buttonSelected.text = "o"
+            buttonSelected.text = "O"
             buttonSelected.setTextColor(Color.parseColor("#D22BB804"))
             player2.add(rnd)
             buttonSelected.isEnabled = false
@@ -167,6 +169,8 @@ class GamePlayActivity : AppCompatActivity() {
             if(checkWinner==1){
                 Handler().postDelayed(Runnable { reset() },2000)
             }
+
+
         }
     }
 
@@ -270,9 +274,10 @@ class GamePlayActivity : AppCompatActivity() {
             player1TV.text = "Player 1 : $player1count"
             player2TV.text = "Player 2 : $player2count"
         }
+
     }
 
-    private fun disableReset() {
+    private fun disableReset()  {
         resetBtn.isEnabled = false
         Handler().postDelayed(Runnable { resetBtn.isEnabled = true },2200)
     }
