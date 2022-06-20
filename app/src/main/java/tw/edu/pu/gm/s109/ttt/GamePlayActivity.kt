@@ -11,10 +11,8 @@ import android.widget.TextView
 import androidx.appcompat.app.AlertDialog
 import kotlin.system.exitProcess
 
-
 var playerTurn = true
 class GamePlayActivity : AppCompatActivity() {
-
     lateinit var player1TV : TextView
     lateinit var player2TV : TextView
     lateinit var box1Btn : Button
@@ -33,6 +31,7 @@ class GamePlayActivity : AppCompatActivity() {
     var player2 = ArrayList<Int>()
     var emptyCells = ArrayList<Int>()
     var activeUser = 1
+
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
