@@ -17,26 +17,26 @@
         android:text="Tic Tac Toe"
         android:textAlignment="center"
         android:textColor="@color/black"
-        android:textSize="30sp"/>
+        android:textSize="30sp" />
 
     <Button
+        android:id="@+id/idBtnSinglePlayer"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Single Player"
-        android:textAllCaps="false"
-        android:id="@+id/idBtnSinglePlayer"
         android:layout_below="@id/idTVHead"
         android:layout_centerHorizontal="true"
-        android:layout_marginTop="40dp"/>
+        android:layout_marginTop="40dp"
+        android:text="Single Player"
+        android:textAllCaps="false" />
 
     <Button
+        android:id="@+id/idBtnMultiPlayer"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Multi Player"
-        android:textAllCaps="false"
-        android:id="@+id/idBtnMultiPlayer"
         android:layout_below="@id/idBtnSinglePlayer"
         android:layout_centerHorizontal="true"
-        android:layout_marginTop="40dp"/>
+        android:layout_marginTop="40dp"
+        android:text="Multi Player"
+        android:textAllCaps="false" />
 
 </RelativeLayout>

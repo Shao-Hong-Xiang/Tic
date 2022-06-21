@@ -69,7 +69,7 @@ class OnlineCodeGeneratorActivity : AppCompatActivity() {
                     }
 
                     override fun onCancelled(error: DatabaseError) {
-                        TODO("Not yet implemented")
+
                     }
                 })
             }else{
@@ -121,7 +121,7 @@ class OnlineCodeGeneratorActivity : AppCompatActivity() {
                     }
 
                     override fun onCancelled(error: DatabaseError) {
-                        TODO("Not yet implemented")
+
                     }
                 })
 

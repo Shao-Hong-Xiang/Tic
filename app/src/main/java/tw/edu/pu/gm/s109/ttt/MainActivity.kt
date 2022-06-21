@@ -5,7 +5,7 @@ import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.widget.Button
 
-var singleUser =false
+var singleUser = false
 class MainActivity : AppCompatActivity() {
 
     lateinit var singplePlayerBtn :Button

@@ -46,115 +46,115 @@
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:orientation="horizontal"
-        android:weightSum="3"
-        android:layout_marginStart="10dp"
         android:layout_gravity="center"
+        android:layout_marginStart="10dp"
         android:layout_marginTop="15dp"
-        android:layout_marginEnd="10dp">
+        android:layout_marginEnd="10dp"
+        android:orientation="horizontal"
+        android:weightSum="3">
 
         <Button
-            android:layout_width="0dp"
-            android:layout_weight="1"
-            android:layout_height="100dp"
-            android:layout_margin="5dp"
             android:id="@+id/idBtnBox1"
-            android:textSize="25sp"
-            android:onClick="buttonClick"/>
-
-        <Button
             android:layout_width="0dp"
-            android:layout_weight="1"
             android:layout_height="100dp"
             android:layout_margin="5dp"
+            android:layout_weight="1"
+            android:onClick="buttonClick"
+            android:textSize="25sp" />
+
+        <Button
             android:id="@+id/idBtnBox2"
-            android:textSize="25sp"
-            android:onClick="buttonClick"/>
-
-        <Button
             android:layout_width="0dp"
-            android:layout_weight="1"
             android:layout_height="100dp"
             android:layout_margin="5dp"
+            android:layout_weight="1"
+            android:onClick="buttonClick"
+            android:textSize="25sp" />
+
+        <Button
             android:id="@+id/idBtnBox3"
-            android:textSize="25sp"
-            android:onClick="buttonClick"/>
+            android:layout_width="0dp"
+            android:layout_height="100dp"
+            android:layout_margin="5dp"
+            android:layout_weight="1"
+            android:onClick="buttonClick"
+            android:textSize="25sp" />
 
     </LinearLayout>
 
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:orientation="horizontal"
-        android:weightSum="3"
-        android:layout_marginStart="10dp"
         android:layout_gravity="center"
-        android:layout_marginEnd="10dp">
+        android:layout_marginStart="10dp"
+        android:layout_marginEnd="10dp"
+        android:orientation="horizontal"
+        android:weightSum="3">
 
         <Button
-            android:layout_width="0dp"
-            android:layout_weight="1"
-            android:layout_height="100dp"
-            android:layout_margin="5dp"
             android:id="@+id/idBtnBox4"
-            android:textSize="25sp"
-            android:onClick="buttonClick"/>
-
-        <Button
             android:layout_width="0dp"
-            android:layout_weight="1"
             android:layout_height="100dp"
             android:layout_margin="5dp"
+            android:layout_weight="1"
+            android:onClick="buttonClick"
+            android:textSize="25sp" />
+
+        <Button
             android:id="@+id/idBtnBox5"
-            android:textSize="25sp"
-            android:onClick="buttonClick"/>
-
-        <Button
             android:layout_width="0dp"
-            android:layout_weight="1"
             android:layout_height="100dp"
             android:layout_margin="5dp"
+            android:layout_weight="1"
+            android:onClick="buttonClick"
+            android:textSize="25sp" />
+
+        <Button
             android:id="@+id/idBtnBox6"
-            android:textSize="25sp"
-            android:onClick="buttonClick"/>
+            android:layout_width="0dp"
+            android:layout_height="100dp"
+            android:layout_margin="5dp"
+            android:layout_weight="1"
+            android:onClick="buttonClick"
+            android:textSize="25sp" />
 
     </LinearLayout>
 
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:orientation="horizontal"
-        android:weightSum="3"
-        android:layout_marginStart="10dp"
         android:layout_gravity="center"
-        android:layout_marginEnd="10dp">
+        android:layout_marginStart="10dp"
+        android:layout_marginEnd="10dp"
+        android:orientation="horizontal"
+        android:weightSum="3">
 
         <Button
-            android:layout_width="0dp"
-            android:layout_weight="1"
-            android:layout_height="100dp"
-            android:layout_margin="5dp"
             android:id="@+id/idBtnBox7"
-            android:textSize="25sp"
-            android:onClick="buttonClick"/>
-
-        <Button
             android:layout_width="0dp"
-            android:layout_weight="1"
             android:layout_height="100dp"
             android:layout_margin="5dp"
+            android:layout_weight="1"
+            android:onClick="buttonClick"
+            android:textSize="25sp" />
+
+        <Button
             android:id="@+id/idBtnBox8"
-            android:textSize="25sp"
-            android:onClick="buttonClick"/>
-
-        <Button
             android:layout_width="0dp"
-            android:layout_weight="1"
             android:layout_height="100dp"
             android:layout_margin="5dp"
+            android:layout_weight="1"
+            android:onClick="buttonClick"
+            android:textSize="25sp" />
+
+        <Button
             android:id="@+id/idBtnBox9"
-            android:textSize="25sp"
-            android:onClick="buttonClick"/>
+            android:layout_width="0dp"
+            android:layout_height="100dp"
+            android:layout_margin="5dp"
+            android:layout_weight="1"
+            android:onClick="buttonClick"
+            android:textSize="25sp" />
 
     </LinearLayout>
 
@@ -165,6 +165,6 @@
         android:layout_gravity="center"
         android:layout_marginTop="20dp"
         android:text="Resent Game"
-        android:textAllCaps="false"/>
+        android:textAllCaps="false" />
 
 </LinearLayout>
